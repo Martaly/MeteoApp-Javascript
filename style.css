@@ -1,0 +1,41 @@
+body{
+    margin:0;
+    padding:15em;
+    background-color: #5f7470;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+}
+.container{
+    height:35em;
+    width:25em;
+    padding:0;
+    background-color: #e0e2db;
+    border-radius: 10px;
+    border:none;
+}
+.app-title p{
+    font-size: 4em;
+    margin:0.5em;
+}
+.notification p{
+    margin: 1em;
+    background-color: #d2d4c8;
+    height: 1em;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+.weather-icon img{
+    height: 12em;
+    width: 12em;
+}
+.temperature-value p{
+    font-size: 5em;
+    margin: 0;
+    margin-top: -0.5em;
+    margin-bottom: 0.5em;
+    color:#5f7470;
+
+}
